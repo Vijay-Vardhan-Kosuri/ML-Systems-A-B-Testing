@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { font-family: system-ui, sans-serif; }
+.card { @apply rounded-xl border border-slate-200 bg-white shadow-sm; }
+.btn { @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition-colors; }
+.btn-primary { @apply btn bg-brand-600 text-white hover:bg-brand-700; }
+.btn-secondary { @apply btn bg-white text-slate-700 border border-slate-200 hover:bg-slate-50; }
+.input { @apply flex h-10 w-full rounded-lg border border-slate-200 px-3 text-sm; }
