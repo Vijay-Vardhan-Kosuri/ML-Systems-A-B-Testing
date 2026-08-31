@@ -25,6 +25,8 @@ npm run dev
 
 Open http://localhost:3000
 
+type this http://localhost:3001
+
 ## Build
 
 ```bash
